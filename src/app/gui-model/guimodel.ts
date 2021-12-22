@@ -161,7 +161,7 @@ export class GuiModel {
                             "required": true
                         },
                         {
-                            "id": "nickname",
+                            "id": "nickName",
                             "type": "text",
                             "name": "Nickname",
                             "width": 2,
@@ -176,7 +176,7 @@ export class GuiModel {
                             "width": 2
                         },
                         {
-                            "id": "birthdate",
+                            "id": "birthDate",
                             "type": "date",
                             "name": "Birthday",
                             "width": 2
@@ -209,7 +209,7 @@ export class GuiModel {
                     "url": "/location",
                     "formFieldList": [
                         {
-                            "id": "name",
+                            "id": "locationName",
                             "type": "text",
                             "name": "LocationName",
                             "width": 2,
