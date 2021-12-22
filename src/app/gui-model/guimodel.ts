@@ -269,7 +269,35 @@ export class GuiModel {
                     ]
                 },
             ],
-            "pageList": [
+            "pageList": 
+            [
+                {
+                    "id": "mainmenu",
+                    "name": "MainMenu",
+                    "elementList": [
+                        {
+                            "type": "button",
+                            "name": "Groups",
+                            "icon": "fa-weixin",
+                            "color": "wisteria",
+                            "page": "groupspage",
+                        },
+                        {
+                            "type": "button",
+                            "name": "Friends",
+                            "icon": "fa-user",
+                            "color": "blue",
+                            "page": "friendspage",
+                        },
+                        {
+                            "type": "button",
+                            "name": "Locations",
+                            "icon": "fa-cubes",
+                            "color": "yellow",
+                            "page": "locationspage",
+                        },
+                    ]
+                },
                 {
                     "id": "groupspage",
                     "elementList": 
@@ -295,10 +323,35 @@ export class GuiModel {
                             "color": "green",
                             "form": 
                             {
-                            "form": "GroupForm"
+                                "form": "GroupForm"
                             } 
                         }
                     ] 
+                },
+                {
+                    "id": "friendspage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "newButton",
+                            "name": "NewFriend",
+                            "icon": "fa-user",
+                            "color": "green",
+                            "form": {
+                                "form": "FriendForm"
+                            }
+                        },
+                        {
+                            "type": "list",
+                            "icon": "fa-user",
+                            "color": "blue",
+                            "search": true,
+                            "url": "/friend",
+                            "page": "friendpage",
+                        },
+                    ]
                 },
                 {
                     "id": "friendpage",
@@ -336,65 +389,9 @@ export class GuiModel {
                             {
                                 "form": "AddActivityForm"
                             }
-                      },
-                        
-                       
-                        
+                        },    
                     ]
-                },
-                
-                {
-                    "id": "mainmenu",
-                    "name": "MainMenu",
-                    "elementList": [
-                        {
-                            "type": "button",
-                            "name": "Groups",
-                            "icon": "fa-weixin",
-                            "color": "wisteria",
-                            "page": "groupspage",
-                        },
-                        {
-                            "type": "button",
-                            "name": "Friends",
-                            "icon": "fa-user",
-                            "color": "blue",
-                            "page": "friendspage",
-                        },
-                        {
-                            "type": "button",
-                            "name": "Location",
-                            "icon": "fa-cubes",
-                            "color": "yellow",
-                            "page": "locationspage",
-                        },
-                    ]
-                },
-                {
-                    "id": "friendspage",
-                    "elementList": [
-                        {
-                            "type": "backbutton",
-                        },
-                        {
-                            "type": "newButton",
-                            "name": "NewFriend",
-                            "icon": "fa-user",
-                            "color": "green",
-                            "form": {
-                                "form": "FriendForm"
-                            }
-                        },
-                        {
-                            "type": "list",
-                            "icon": "fa-user",
-                            "color": "blue",
-                            "search": true,
-                            "url": "/friend",
-                            "page": "friendpage",
-                        },
-                    ]
-                },
+                },  
                 {
                     "id": "locationspage",
                     "elementList": [
