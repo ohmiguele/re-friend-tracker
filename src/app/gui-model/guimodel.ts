@@ -107,7 +107,7 @@ export class GuiModel {
                             "required": true
                         },
                         {
-                            "id": "nickname",
+                            "id": "nickName",
                             "type": "text",
                             "name": "Nickname",
                             "width": 2,
@@ -145,7 +145,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "Ok"
+                            "name": "OK"
                         }
                     ]
                 },
@@ -210,7 +210,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "Ok"
+                            "name": "OK"
                         }
                     ]
                 },
@@ -237,7 +237,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "Ok"
+                            "name": "OK"
                         } 
                     ]
                 },
@@ -264,7 +264,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "Ok"
+                            "name": "OK"
                         }
                     ]
                 },
