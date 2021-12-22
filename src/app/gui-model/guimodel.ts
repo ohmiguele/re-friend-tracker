@@ -75,7 +75,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "OK"
+                            "name": "Ok"
                         }
                     ]
                 },
@@ -145,7 +145,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "OK"
+                            "name": "Ok"
                         }
                     ]
                 },
@@ -180,7 +180,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "OK"
+                            "name": "Ok"
                         } 
                     ]
                 },
@@ -210,7 +210,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "OK"
+                            "name": "Ok"
                         }
                     ]
                 },
@@ -237,7 +237,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "OK"
+                            "name": "Ok"
                         } 
                     ]
                 },
@@ -264,7 +264,7 @@ export class GuiModel {
                         },
                         {
                             "type": "okButton",
-                            "name": "OK"
+                            "name": "Ok"
                         }
                     ]
                 },
