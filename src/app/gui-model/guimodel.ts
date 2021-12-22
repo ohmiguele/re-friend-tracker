@@ -82,7 +82,7 @@ export class GuiModel {
                 {
                     "id": "EditFriendForm",
                     "title": "Friend",
-                    "url": "/friend/:friendKey/",
+                    "url": "/friend/:friendKey",
                     "formFieldList": 
                     [
                         {
